@@ -1,0 +1,7 @@
+sudo add-apt-repository multiverse
+sudo apt-get update
+sudo pip3 install selenium
+sudo apt-get install apt-utils
+sudo apt install snapd
+sudo apt-get install chromium-browser
+sudo apt-get install chromium-chromedriver

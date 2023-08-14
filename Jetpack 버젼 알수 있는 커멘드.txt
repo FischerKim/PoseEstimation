@@ -1,0 +1,2 @@
+Jetpack 버젼 알수 있는 커멘드
+cat /opt/version

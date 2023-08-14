@@ -1,0 +1,11 @@
+sudo apt-get update
+sudo apt-get install smartmontools
+
+sudo smartctl -a /dev/sda
+
+sudo cp setssdroot.service /etc/systemd/system
+sudo cp setssdroot.sh /sbin
+sudo chmod 777 /sbin/setssdroot.sh
+systemctl daemon-reload
+sudo systemctl enable setssdroot.service
+reboot
